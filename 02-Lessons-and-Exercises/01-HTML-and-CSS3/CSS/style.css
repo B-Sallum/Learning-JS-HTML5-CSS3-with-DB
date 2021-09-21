@@ -1,0 +1,22 @@
+h1{
+    color:rgb(112, 36, 36);
+}
+h2{
+    color:rgba(61, 199, 36, 0.733);
+    border: solid 5px black;  
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
+}
+/* . é para Class */
+.text{
+    color: rgba(255, 0, 0, 0.87);
+    border: solid 5px black;  
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
+}
+/* Hashtag é para p ID */
+#text1{
+    color:chocolate;
+}
