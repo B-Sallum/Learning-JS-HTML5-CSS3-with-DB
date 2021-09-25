@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <title></title>
 </head>
-<body>
 
+<body>
+  <h1>Just Wanna Be Tested</h1>
+
+  <section id="nome">
+    <input id="inputnome" type="text" placeholder="Insira seu nome">
+    <span id="spanresultado">Nome</span>
+  </section>
+
+  <section id="idade">
+    <input id="inputidade" type="number" min="0">
+    <span id="spanidade">Idade</span>
+  </section>
+
+  <section id="IMC">
+    <section id="calculo">
+      <input type="text" id="peso" placeholder="Insira seu peso">
+      <input type="text" id="altura" placeholder="Insira sua altura">
+    </section>
+  </section>
+
+  <button onclick="nome(), calcularIMC()">Calcular</button>
+
+  <script type="text/javascript" src="JS/script.js"></script>
 </body>
+
 </html>

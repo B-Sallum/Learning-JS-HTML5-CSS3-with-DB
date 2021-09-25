@@ -1,3 +1,14 @@
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px; 
+}
+
+body {
+  text-align: center;
+  background-color: rgb(132, 121, 150);
+}
+
 html {
   font-family: "Lucida Sans", sans-serif;
 }
@@ -15,13 +26,14 @@ html {
   height: auto;
 }
 
-#mainImg {
-  max-width: 100%;
-  height: auto;
-  border-radius: 20px;
+.topImg {
+  
 }
 
-body {
-  text-align: center;
-  background-color: rgb(132, 121, 150);
+#mainImg {
+  max-width: 500px;
+}
+
+#textao {
+  color: blue;
 }
