@@ -15,7 +15,7 @@ buttonAdd.addEventListener("click", function () {
 
 photoChange.addEventListener("click", function () {
     textao.innerText = "HOHOHO"
-    imagem1.src = "media/image/Mobile02.png"
+    imagem1.src = "./media/image/Mobile02.png"
 })
 
 function teste() {
