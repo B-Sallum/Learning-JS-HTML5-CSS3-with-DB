@@ -7,17 +7,15 @@ buttonTexto.addEventListener("click", function () {
 const buttonAdd = document.querySelector("#buttonAdd")
 
 buttonAdd.addEventListener("click", function () {
-    const tag1 = document.createElement("h1")
+    const tag1 = document.createElement("h3")
     const text = document.createTextNode("Opa Criação")
     tag1.appendChild(text)
     document.body.appendChild(text)
 })
 
 photoChange.addEventListener("click", function () {
-    let imagem = document.querySelector("#imagem1").src
-    let titulo = document.getElementById("textao").value
-    titulo.innerText = "HOHOHO"
-    imagem.src = "media/image/Mobile02.png"
+    textao.innerText = "HOHOHO"
+    imagem1.src = "media/image/Mobile02.png"
 })
 
 function teste() {
