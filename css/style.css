@@ -8,7 +8,7 @@ body {
     right: 30px;
     top: 0px;
     background-color: #2e2e2e;
-    border: 4px yellow;
+    border: solid 1px goldenrod;
     border-radius: 50px;
     width: 150px;
     height: 50px;
