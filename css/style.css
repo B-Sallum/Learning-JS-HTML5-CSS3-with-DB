@@ -3,24 +3,15 @@ body {
     max-height: 100%;
 }
 
-.linha {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    right: 0px;
-}
-
-.coluna {
-    display: flex;
-    flex-direction: column;
-}
-
 #button {
+    position: fixed;
+    right: 30px;
+    top: 0px;
     background-color: #2e2e2e;
     border: 4px yellow;
     border-radius: 50px;
     width: 150px;
-    height: 100px;
+    height: 50px;
     font-size: 1.5em;    
 }
 
@@ -29,11 +20,15 @@ body {
 }
 
 #luminaria {
-    width: 500px;
-    height: 500px;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+    width: 40%;
+    max-height: 500px;
 }
 
 #change {
-    width: 500px;
-    height: 100%;
+    width: 70%;
+    max-height: 400px;
+    margin-top: 100px;
 }
